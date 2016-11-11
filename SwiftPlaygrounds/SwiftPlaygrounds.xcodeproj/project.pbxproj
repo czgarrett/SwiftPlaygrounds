@@ -13,10 +13,15 @@
 		83F9A8D01CE740690026C1C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83F9A8CE1CE740690026C1C7 /* Main.storyboard */; };
 		83F9A8D21CE740690026C1C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83F9A8D11CE740690026C1C7 /* Assets.xcassets */; };
 		83F9A8D51CE740690026C1C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83F9A8D31CE740690026C1C7 /* LaunchScreen.storyboard */; };
-		83F9A8DD1CE7408E0026C1C7 /* Playgrounds in Resources */ = {isa = PBXBuildFile; fileRef = 83F9A8DC1CE7408E0026C1C7 /* Playgrounds */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8303A0001DD5F28C00116D8D /* CalendarDateAndTime.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CalendarDateAndTime.playground; sourceTree = "<group>"; };
+		8303A0011DD5F28C00116D8D /* Defer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Defer.playground; sourceTree = "<group>"; };
+		8303A0041DD5F28C00116D8D /* Beginner.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Beginner.playground; sourceTree = "<group>"; };
+		8303A0051DD5F28C00116D8D /* Expert.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Expert.playground; sourceTree = "<group>"; };
+		8303A0061DD5F28D00116D8D /* Strings.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Strings.playground; sourceTree = "<group>"; };
+		8303A0081DD5F28D00116D8D /* CoreGraphics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CoreGraphics.playground; sourceTree = "<group>"; };
 		83F9A8C51CE740690026C1C7 /* SwiftPlaygrounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPlaygrounds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83F9A8C81CE740690026C1C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83F9A8CA1CE740690026C1C7 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -25,7 +30,6 @@
 		83F9A8D11CE740690026C1C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83F9A8D41CE740690026C1C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83F9A8D61CE740690026C1C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83F9A8DC1CE7408E0026C1C7 /* Playgrounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Playgrounds; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,10 +43,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		83039FFE1DD5F28C00116D8D /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				83039FFF1DD5F28C00116D8D /* Advanced */,
+				8303A0021DD5F28C00116D8D /* ByTheBook */,
+				8303A0031DD5F28C00116D8D /* CheatSheets */,
+				8303A0071DD5F28D00116D8D /* CoreGraphics */,
+				8303A0091DD5F28D00116D8D /* TheSwiftWay */,
+			);
+			path = Playgrounds;
+			sourceTree = "<group>";
+		};
+		83039FFF1DD5F28C00116D8D /* Advanced */ = {
+			isa = PBXGroup;
+			children = (
+				8303A0001DD5F28C00116D8D /* CalendarDateAndTime.playground */,
+				8303A0011DD5F28C00116D8D /* Defer.playground */,
+			);
+			path = Advanced;
+			sourceTree = "<group>";
+		};
+		8303A0021DD5F28C00116D8D /* ByTheBook */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ByTheBook;
+			sourceTree = "<group>";
+		};
+		8303A0031DD5F28C00116D8D /* CheatSheets */ = {
+			isa = PBXGroup;
+			children = (
+				8303A0041DD5F28C00116D8D /* Beginner.playground */,
+				8303A0051DD5F28C00116D8D /* Expert.playground */,
+				8303A0061DD5F28D00116D8D /* Strings.playground */,
+			);
+			path = CheatSheets;
+			sourceTree = "<group>";
+		};
+		8303A0071DD5F28D00116D8D /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				8303A0081DD5F28D00116D8D /* CoreGraphics.playground */,
+			);
+			path = CoreGraphics;
+			sourceTree = "<group>";
+		};
+		8303A0091DD5F28D00116D8D /* TheSwiftWay */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TheSwiftWay;
+			sourceTree = "<group>";
+		};
 		83F9A8BC1CE740690026C1C7 = {
 			isa = PBXGroup;
 			children = (
-				83F9A8DC1CE7408E0026C1C7 /* Playgrounds */,
+				83039FFE1DD5F28C00116D8D /* Playgrounds */,
 				83F9A8C71CE740690026C1C7 /* SwiftPlaygrounds */,
 				83F9A8C61CE740690026C1C7 /* Products */,
 			);
@@ -102,6 +159,7 @@
 				TargetAttributes = {
 					83F9A8C41CE740690026C1C7 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0810;
 					};
 				};
 			};
@@ -131,7 +189,6 @@
 				83F9A8D51CE740690026C1C7 /* LaunchScreen.storyboard in Resources */,
 				83F9A8D21CE740690026C1C7 /* Assets.xcassets in Resources */,
 				83F9A8D01CE740690026C1C7 /* Main.storyboard in Resources */,
-				83F9A8DD1CE7408E0026C1C7 /* Playgrounds in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +320,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zworkbench.SwiftPlaygrounds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -274,6 +332,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zworkbench.SwiftPlaygrounds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -296,6 +355,7 @@
 				83F9A8DB1CE740690026C1C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

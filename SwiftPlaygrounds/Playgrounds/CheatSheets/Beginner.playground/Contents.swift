@@ -1,2 +1,2 @@
-// Beginner Cheat Sheet
+//: Playground - noun: a place where people can play
 
