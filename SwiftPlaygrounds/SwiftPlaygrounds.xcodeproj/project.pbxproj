@@ -25,6 +25,7 @@
 		8316C9B51DEAF03D00730DD2 /* AttributedStrings.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AttributedStrings.playground; sourceTree = "<group>"; };
 		8316C9BB1DEC92A600730DD2 /* JSON.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = JSON.playground; sourceTree = "<group>"; };
 		8316C9BC1DECD0A500730DD2 /* DateFormatter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DateFormatter.playground; sourceTree = "<group>"; };
+		834DE3731DF87EC600B1788D /* Tuples.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Tuples.playground; sourceTree = "<group>"; };
 		83F9A8C51CE740690026C1C7 /* SwiftPlaygrounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPlaygrounds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83F9A8C81CE740690026C1C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83F9A8CA1CE740690026C1C7 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +84,7 @@
 				8316C9B51DEAF03D00730DD2 /* AttributedStrings.playground */,
 				8316C9BB1DEC92A600730DD2 /* JSON.playground */,
 				8316C9BC1DECD0A500730DD2 /* DateFormatter.playground */,
+				834DE3731DF87EC600B1788D /* Tuples.playground */,
 			);
 			path = CheatSheets;
 			sourceTree = "<group>";

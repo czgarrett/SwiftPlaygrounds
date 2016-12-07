@@ -29,3 +29,39 @@ var str = "<div style=\"background-color: white;\">Here\'s a <a href=\"http://ww
 str.htmlToAttributedString
 
 str.htmlToString
+
+// Paragraph with left and right aligned text
+
+let paragraph = NSMutableParagraphStyle()
+paragraph.alignment = .left
+for tabStop in paragraph.tabStops {
+    paragraph.removeTabStop(tabStop)
+}
+paragraph.addTabStop(NSTextTab(textAlignment: .right, location: 240.0, options: [:]))
+
+let text = NSMutableAttributedString()
+
+let leftAttributes = [
+    NSFontAttributeName: UIFont.systemFont(ofSize: 10.0),
+    NSForegroundColorAttributeName: UIColor.white,
+    NSParagraphStyleAttributeName: paragraph
+]
+
+let rightAttributes = [
+    NSFontAttributeName: UIFont.boldSystemFont(ofSize: 20.0),
+    NSForegroundColorAttributeName: UIColor.white,
+    NSParagraphStyleAttributeName: paragraph
+]
+
+let data = [
+    "Carrots": 23,
+    "Pears": 453,
+    "Apples ": 2350
+]
+
+for (key, value) in data {
+    text.append(NSAttributedString(string: key, attributes: leftAttributes))
+    text.append(NSAttributedString(string: "\t\(value)\n", attributes: rightAttributes))
+}
+
+text
