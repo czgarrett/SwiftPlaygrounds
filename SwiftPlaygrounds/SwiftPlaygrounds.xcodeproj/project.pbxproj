@@ -21,7 +21,6 @@
 		8303A0041DD5F28C00116D8D /* Beginner.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Beginner.playground; sourceTree = "<group>"; };
 		8303A0051DD5F28C00116D8D /* Expert.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Expert.playground; sourceTree = "<group>"; };
 		8303A0061DD5F28D00116D8D /* Strings.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Strings.playground; sourceTree = "<group>"; };
-		8303A0081DD5F28D00116D8D /* CoreGraphics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CoreGraphics.playground; sourceTree = "<group>"; };
 		8316C9B51DEAF03D00730DD2 /* AttributedStrings.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AttributedStrings.playground; sourceTree = "<group>"; };
 		8316C9BB1DEC92A600730DD2 /* JSON.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = JSON.playground; sourceTree = "<group>"; };
 		8316C9BC1DECD0A500730DD2 /* DateFormatter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DateFormatter.playground; sourceTree = "<group>"; };
@@ -92,7 +91,6 @@
 		8303A0071DD5F28D00116D8D /* CoreGraphics */ = {
 			isa = PBXGroup;
 			children = (
-				8303A0081DD5F28D00116D8D /* CoreGraphics.playground */,
 			);
 			path = CoreGraphics;
 			sourceTree = "<group>";
@@ -162,7 +160,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "The Swift Playgrounds Project";
 				TargetAttributes = {
 					83F9A8C41CE740690026C1C7 = {
@@ -249,8 +247,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -295,8 +295,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -315,6 +317,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};

@@ -13,7 +13,7 @@ struct Auto {
 
 // We "could" have an array of calls to the Auto constructor here.
 // But that would involve quite a bit more duplicated code on each line.
-// This approach has the minimal amount of repeated data, while still keeping it structured.
+// This approach has the minimal amount of repeated code, while still keeping it structured.
 // Then we iterate over it all to convert it into autos.
 let data: [(make: String, model: String)] = [
     ("Ford", "Focus"),
