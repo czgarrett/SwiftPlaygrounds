@@ -32,3 +32,14 @@ var stillMinusSeven = +minusSeven
 
 // this operator actually doesn't do anything
 // but can provide symmetry to code
+
+// Compound Assignment Operators
+
+var x = 10
+x += 1  // shorthand for x = x + 1
+
+var y = 5
+y -= 3 // shorthand for y = y - 3
+
+
+
